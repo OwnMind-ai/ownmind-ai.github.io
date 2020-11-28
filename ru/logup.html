@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		 <title>Own mind | Logup</title>
+		 <meta charset="UTF-8"/>
+		 <link href="D:\OwnMind\css\header.css" rel="stylesheet" type="text/css" /> <!Header CSS file (Use only)>
+		 <link href="D:\OwnMind\css\footer.css" rel="stylesheet" type="text/css" /> <!Footer CSS file (Use only)>
+    	 <link href="D:\OwnMind\css\logup.css" rel="stylesheet" type="text/css" /> <!СSS файл страницы>
+		 <link href="/img/favicon.png" rel="shortcut icon" type="image/x-icon" />
+		 <script src="jquery.js"></script> 
+   		 <script> 
+    	$(function(){
+     	 $("#header").load("header.html"); 
+    	});
+    	</script> 
+	</head>
+	
+	<body>
+		<header id="header">
+		</header>
+		<div style="width: 100%; margin: 0 auto 50px; height: auto;">
+			<h1 class="logup-text">Создать аккаунт</h1>
+			<div class="login_ac">
+				<div style="width: 70%; margin: 3px auto; margin-top: 1em; margin-left: 55px;">
+
+					<div style="float: left; width: 50%; text-align: right; padding: 3px;">
+						<span>Полное имя (ник) </span>
+					</div>
+					<div style="float: left; width: 45%; text-align: left;padding: 3px;">
+						<input class="textarea" type="text" formnovalidate name="name" title="Write your name." autocomplete="off" placeholder="Name">
+					</div>
+
+					<div style="clear: left;"></div>
+				</div>
+				<div style="width: 70%; margin: 3px auto; margin-left: 55px;">
+					<div style="float: left; width: 50%; text-align: right; padding: 3px;">
+						<span>Электронная почта </span>
+					</div>
+					<div style="float: left; width: 45%; text-align: left; padding: 3px;">
+						<input class="textarea" type="email" formnovalidate name="email" title="Write your E-mail." autocomplete="off" placeholder="E-mail">
+					</div>
+
+					<div style="clear: left;"></div>
+				</div>
+				<div style="width: 70%; margin: 3px auto; margin-left: 55px;">
+					<div style="float: left; width: 50%; text-align: right; padding: 3px;">
+						<span>Пароль </span>
+					</div>
+					<div style="float: left; width: 45%; text-align: left; padding: 3px;">
+						<input class="textarea" type="password" formnovalidate name="password" title="Write your password." autocomplete="off" placeholder="Password">
+					</div>
+
+					<div style="clear: left;"></div>
+				</div>
+				<div style="width: 70%; margin: 3px auto; margin-left: 55px;">
+					<div style="float: left; width: 50%; text-align: right; padding: 3px;">
+						<span>Повторите пароль</span>
+					</div>
+					<div style="float: left; width: 45%; text-align: left; padding: 3px;">
+						<input class="textarea" type="password" formnovalidate name="r_password" title="Write your password." autocomplete="off" placeholder="Password">
+					</div>
+					<div style="clear: left;"></div>
+				</div>
+				<form class="login_accept" style="text-align: center; float: center; margin-top: 10px;">  <!Кнопка входа в профиля после ввода>
+					<input type="button" value="Создать" class="login_acc" onclick="window.location.href='http://www.google.com/'" /> 
+				</form><br/>
+			</div>
+		<footer> <!Футер сайта (Использовать в каждом файле)>
+			<span>Тут контент<span>
+		</footer>	
+	</body>
+</html>

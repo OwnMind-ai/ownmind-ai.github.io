@@ -1,0 +1,57 @@
+.logup-text{
+	font-family: Arial;
+	font-size: 2.7em;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+}
+
+.login_ac{
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: normal;
+	margin: 5px auto;
+}
+
+.login_acc{
+	background-color: #000; /* LightGrey */
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border: none;
+    padding: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    position: relative;
+    display: inline-block;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+.login_acc:hover{
+	color: black;
+	background-color: #fff;
+}
+
+/*.create_ac:hover{
+	color: red !important;
+} */
+
+.Forgot_pass{
+	font-size: 0.7em;
+	text-decoration: none;
+}
+
+.Forgot_pass:hover{
+	text-decoration: underline;
+}
+
+.textarea{
+	background-color: #484848; 
+	border: none;
+	border-radius: 2px;
+	height: 2.5em;
+	width: 20em;
+	padding-left: 10px;
+	color: white;
+}

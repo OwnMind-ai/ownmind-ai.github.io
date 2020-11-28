@@ -1,0 +1,14 @@
+footer{ 
+	border: none;
+	background-color:#000;
+	padding-top: 23px;
+	padding-left: 23px;
+	padding-right: 23px;
+	position: absolute;
+	font-family: arial;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 101%;
+    overflow: hidden;
+}
