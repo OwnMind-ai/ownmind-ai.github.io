@@ -1,0 +1,2 @@
+# ownmind-ai.github.io
+ 
